@@ -21,7 +21,7 @@ c_value = 0
 flag = 0
 ratio = -1363.992
 
-global id_product = 1
+id_product = 1
 list_label = []
 list_weight = []
 count = 0
@@ -92,7 +92,7 @@ def find_weight():
                
 def post(label,price,final_rate,taken):
     global id
-    url = "https://automaticbilling.herokuapp.com/product"
+    url = "https://localhost:3000"
     headers = CaseInsensitiveDict()
     headers["Content-Type"] = "application/json"
     data_dict = {"id":id_product,"name":label,"price":price,"units":"units","taken":taken,"payable":final_rate}
