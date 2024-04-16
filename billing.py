@@ -139,12 +139,12 @@ def rate(final_weight,label,taken):
     elif label == l:
          print("Calculating rate of",label)
          final_rate_l = 1
-	 price = 1
+         price = 1
          post(label,price,final_rate_l,taken)
     else :
          print("Calculating rate of",label)
          final_rate_c = 2
-	 price = 2
+         price = 2
          post(label,price,final_rate_c,taken)
 def main(argv):
     global flag
