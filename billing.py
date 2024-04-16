@@ -31,7 +31,7 @@ taken = 0
 a = 'Apple'
 b = 'Banana'
 l = 'Lays'
-c = 'Coke'
+c = 'Sprite'
 
 def now():
     return round(time.time() * 1000)
